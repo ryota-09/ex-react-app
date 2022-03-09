@@ -1,10 +1,17 @@
-import { ex01 } from "../components/ex01"
+import { Ex01 } from "../components/ex01"
+import { Home } from "../components/Home"
 
 export const PageRoutes = [
   {
     path: "/",
-    name: "ex01",
+    name: "Home",
     exact: true,
-    // children: <ex01 />
+    children: <Home />
+  },
+  {
+    path: "/ex01",
+    name: "Ex01",
+    exact: false,
+    children: <Ex01 />
   },
 ]
