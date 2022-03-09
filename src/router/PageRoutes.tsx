@@ -5,6 +5,7 @@ import { Ex50 } from "../components/Ex50";
 import { Ex60 } from "../components/Ex60";
 import { Ex70 } from "../components/Ex70";
 import { Ex80 } from "../components/Ex80";
+import { Ex190 } from "../components/Ex190";
 
 export const PageRoutes = [
   {
@@ -48,5 +49,11 @@ export const PageRoutes = [
     name: "Ex80",
     exact: false,
     children: <Ex80 />,
+  },
+  {
+    path: "/ex190",
+    name: "Ex190",
+    exact: false,
+    children: <Ex190 />,
   },
 ];
