@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link, } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
 import { Router } from "./router/Router";
 import "./App.css";
 
@@ -9,7 +9,9 @@ function App() {
       <BrowserRouter>
         <h1>React練習問題</h1>
         <div className="App">
-          <Link to="/">Home</Link> |<Link to="/ex01">Ex01</Link> |
+          <Link to="/">Home</Link> |
+          <Link to="/ex01">Ex01</Link> |
+          <Link to="/ex31">Ex31</Link> |
         </div>
         <Router />
       </BrowserRouter>

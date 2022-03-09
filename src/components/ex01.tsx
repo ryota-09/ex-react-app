@@ -10,6 +10,7 @@ export const Ex01 = () => {
       <h2>Ex01</h2>
       <p>名前: { name }</p>
       <p>年齢: { age }</p>
+      {/* オブジェクト型は直接入れることができない。 */}
       <p>誕生日: { `${birthDate}` }</p>
       <p>趣味: { hobbies.map((hobby) => (
         <span key={hobby}>{hobby}&nbsp;</span>
