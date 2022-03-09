@@ -7,6 +7,7 @@ export const Ex31 = () => {
       <button type="button" disabled={!pushFrag}>押せるボタン</button>
       <button type="button" disabled={pushFrag}>押せないボタン</button>
       <hr />
+      {/* checkedはchangeハンドラーのようなイベント処理がないとつけられない。 */}
       <input type="radio" name="radio" /><span>ラジオボタン</span>
       <input type="radio" name="radio"/><span>ラジオボタン</span>
     </div>
