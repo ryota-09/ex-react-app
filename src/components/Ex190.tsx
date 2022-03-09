@@ -1,4 +1,4 @@
-//Propsで子コンポーネントで引数を渡す
+//Propsで子コンポーネントに引数を渡す
 import { CompMyname } from "./CompMyname"
 
 export const Ex190 = () => {
