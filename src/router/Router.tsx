@@ -1,9 +1,11 @@
 import { Route, Switch } from "react-router-dom";
 import { PageRoutes } from "../router/PageRoutes";
+import { Home } from "../components/Home"
 
 export const Router = () => {
   return (
-    <Route
+    <Switch>
+      <Route
       path="/"
       render={({ match: url }) => (
         <Switch>
@@ -11,13 +13,14 @@ export const Router = () => {
             <Route
               key={route.path}
               exact={route.exact}
-              path={`${url}${route.path}`}
+              path={`${route.path}`}
             >
-              {route.children}
+              {route.children} 
             </Route>
           ))}
         </Switch>
       )}
     ></Route>
+    </Switch>
   );
 };
