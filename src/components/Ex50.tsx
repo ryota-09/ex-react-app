@@ -1,3 +1,5 @@
+//メソッドについて
+
 export const Ex50 = () => {
   const lastName = "佐藤";
   const firstName = "太郎";
