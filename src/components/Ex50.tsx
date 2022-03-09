@@ -1,5 +1,7 @@
 //メソッドについて
 
+import { Ex50Practice } from "./subComponents/Ex50Practice";
+
 export const Ex50 = () => {
   const lastName = "佐藤";
   const firstName = "太郎";
@@ -22,6 +24,8 @@ export const Ex50 = () => {
       <div>現在の年齢: {age}</div>
       <div>10年後の年齢: {showPlus10Years()}</div>
       <div>20年後の年齢: {showPlus20Year(age)}</div>
+      <hr />
+      <Ex50Practice />
     </div>
   )
 }

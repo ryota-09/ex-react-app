@@ -1,4 +1,5 @@
 //クリックしたイベントをひろう
+import { Ex60Practice } from "./subComponents/Ex60Practice";
 import { useState } from "react"
 
 export const Ex60 = () => {
@@ -15,6 +16,7 @@ export const Ex60 = () => {
     <button type="button" onClick={clickEvent} disabled={!pushFrag}>押せるボタン</button>
       <button type="button" onClick={clickEvent} disabled={pushFrag}>押せないボタン</button>
       <hr />
+      <Ex60Practice />
     </div>
   )
 }

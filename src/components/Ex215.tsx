@@ -1,3 +1,4 @@
+import { Ex215Practice } from "./subComponents/Ex215Practice";
 import { useState } from "react";
 import { Button } from "./CompButton"
 
@@ -11,13 +12,15 @@ export const Ex215 = () => {
   return (
     <div className="es215">
       <h2>EX215</h2>
-      <p>子コンポーネントからイベントアップします。</p>
+      <p>子コンポーネントから親コンポーネントにイベントアップします。</p>
       <div>現在のカウント: {count}</div>
       {/* プロパティ名は発生させるイベント。子に関数ごと渡してしまう。 */}
       <Button countUp={countUp} />
       <Button countUp={countUp} />
       <Button countUp={countUp} />
       <Button countUp={countUp} />
+      <hr />
+      <Ex215Practice />
     </div>
   );
 };

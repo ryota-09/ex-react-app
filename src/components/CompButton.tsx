@@ -1,5 +1,6 @@
 import { FC } from "react"
 
+//関数の渡され方は忘れやすい。
 type Props = {
   countUp: () => void
 }

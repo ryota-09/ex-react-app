@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <h1>React練習問題</h1>
+        <h1>React練習問題アプリ</h1>
         <div className="App">
           <Link to="/">Home</Link> |
           <Link to="/ex01">Ex01</Link> |

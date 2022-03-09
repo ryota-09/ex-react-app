@@ -1,3 +1,5 @@
+import { Ex01Practice } from "./subComponents/Ex01Practice";
+
 export const Ex01 = () => {
   const name = "山田";
   const age = 20;
@@ -16,6 +18,8 @@ export const Ex01 = () => {
         <span key={hobby}>{hobby}&nbsp;</span>
       )) }</p>
       <p>10年後の年齢: { after10yearsAge }</p>
+      <hr />
+      <Ex01Practice />
     </div>
   );
 };
