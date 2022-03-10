@@ -21,6 +21,7 @@ function App() {
           <Link to="/ex300">Ex300</Link> |
           <Link to="/exbeginner01">EX-beginner01</Link> |
           <Link to="/exbeginner02">EX-beginner02</Link> |
+          <Link to="/exbeginner03">EX-beginner03</Link> |
         </div>
         <Router />
       </BrowserRouter>
